@@ -60,17 +60,33 @@
 		AAA348CC20B098FE00333ADB /* MinChartKit */ = {
 			isa = PBXGroup;
 			children = (
-				AAA348D620B099FB00333ADB /* BarFactory.swift */,
-				AAA348D520B099FB00333ADB /* Chartable.swift */,
-				AAA348DB20B099FB00333ADB /* ChartFactory.swift */,
-				AAA348DA20B099FB00333ADB /* LineFactory.swift */,
-				AAA348D820B099FB00333ADB /* MinBar.swift */,
 				AAA348D720B099FB00333ADB /* MinChartKit.swift */,
-				AAA348D920B099FB00333ADB /* MinLine.swift */,
+				AAA348E420B09B6100333ADB /* Factories */,
+				AAA348E320B09B3700333ADB /* Views */,
 				AAA348CD20B098FE00333ADB /* MinChartKit.h */,
 				AAA348CE20B098FE00333ADB /* Info.plist */,
 			);
 			path = MinChartKit;
+			sourceTree = "<group>";
+		};
+		AAA348E320B09B3700333ADB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AAA348D520B099FB00333ADB /* Chartable.swift */,
+				AAA348D820B099FB00333ADB /* MinBar.swift */,
+				AAA348D920B099FB00333ADB /* MinLine.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AAA348E420B09B6100333ADB /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+				AAA348DB20B099FB00333ADB /* ChartFactory.swift */,
+				AAA348D620B099FB00333ADB /* BarFactory.swift */,
+				AAA348DA20B099FB00333ADB /* LineFactory.swift */,
+			);
+			path = Factories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
