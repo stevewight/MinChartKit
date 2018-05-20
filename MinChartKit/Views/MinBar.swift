@@ -9,19 +9,19 @@
 import UIKit
 import Charts
 
-class MinBar: BarChartView, BarLineChartable {
+public class MinBar: BarChartView, BarLineChartable {
     
-    init() {
+    public init() {
         super.init(frame: .zero)
         self.setUp(chart: self)
     }
     
-    override init(frame: CGRect) {
+    public override init(frame: CGRect) {
         super.init(frame: frame)
         self.setUp(chart: self)
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    public required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         self.setUp(chart: self)
     }

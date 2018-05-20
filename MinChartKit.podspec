@@ -21,6 +21,6 @@ Pod::Spec.new do |s|
 
   s.source_files  = "MinChartKit/**/*.{h,m,swift}"
   s.pod_target_xcconfig = { "SWIFT_VERSION" => "4" }
-  #s.dependency "Charts"
+  s.dependency "Charts"
 
 end

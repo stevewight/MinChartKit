@@ -12,16 +12,16 @@ public struct MinChartKit {
     var data = [Double]()
     var color:UIColor = .darkGray
     
-    init(data:[Double]) {
+    public init(data:[Double]) {
         self.data = data
     }
     
-    init(data:[Double], color:UIColor) {
+    public init(data:[Double], color:UIColor) {
         self.data = data
         self.color = color
     }
     
-    func line(_ line:MinLine) {
+    public func line(_ line:MinLine) {
         LineFactory(
             chart: line,
             data: data,
@@ -29,7 +29,7 @@ public struct MinChartKit {
         ).make()
     }
     
-    func bar(_ bar:MinBar) {
+    public func bar(_ bar:MinBar) {
         BarFactory(
             chart: bar,
             data: data,
