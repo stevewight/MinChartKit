@@ -38,6 +38,18 @@ minChartKit.bar(minBar)
 
 ![GoldKit](images/bar-chart.png)
 
+## On the Sholders...
+*MinChartKit* is built on top of [*``Charts``*](https://github.com/danielgindi/Charts), and therefore the min charts have access to the parent classes methods and parameters:
+
+```swift
+// animate drawing of a line
+minLine.animate(xAxisDuration: 1.682)
+```
+
+![GoldKit](images/line-animate.gif)
+
+This also allows the ability to fully customize the ``MinLine`` chart in any way you would customize the  ``LineChartView`` class.  Take a look at the [*``Charts``*](https://github.com/danielgindi/Charts) docs for more details.
+
 ## Installation
 The easiest way to use *MinChartKit* is with CocoaPods
 
@@ -57,18 +69,6 @@ Then, run the following command:
 ```bash
 $ pod install
 ```
-
-## On the Sholders...
-*MinChartKit* is built on top of [*``Charts``*](https://github.com/danielgindi/Charts), and therefore the min charts have access to the parent classes methods and parameters:
-
-```swift
-// animate drawing of a line
-minLine.animate(xAxisDuration: 1.682)
-```
-
-![GoldKit](images/line-animate.gif)
-
-This also allows the ability to fully customize the ``MinLine`` chart in any way you would customize the  ``LineChartView`` class.  Take a look at the [*``Charts``*](https://github.com/danielgindi/Charts) docs for more details.
 
 ## Pre-Release Version
 This is a pre-release version of *MinChartKit* and although it is stable and should be working in all the above cases, things will be added, changed and potentially break.
