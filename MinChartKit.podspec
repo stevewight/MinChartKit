@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "MinChartKit"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "Easily Create Hyper-Minimal Charts"
 
   s.homepage     = "http://github.com/stevewight/MinChartKit"
