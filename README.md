@@ -32,11 +32,11 @@ minChartKit.bar(minBar)
 
 ### ``MinLine``
 
-![GoldKit](images/line-chart.png)
+![GoldKit](https://github.com/stevewight/MinChartKit/raw/master/images/line-chart.png)
 
 ### ``MinBar``
 
-![GoldKit](images/bar-chart.png)
+![GoldKit](https://github.com/stevewight/MinChartKit/raw/master/images/bar-chart.png)
 
 ## On the Sholders...
 *MinChartKit* is built on top of [*``Charts``*](https://github.com/danielgindi/Charts), and therefore the min charts have access to the parent classes methods and parameters:
@@ -46,7 +46,7 @@ minChartKit.bar(minBar)
 minLine.animate(xAxisDuration: 1.682)
 ```
 
-![GoldKit](images/line-animate.gif)
+![GoldKit](https://github.com/stevewight/MinChartKit/raw/master/images/line-animate.gif)
 
 This also allows the ability to fully customize the ``MinLine`` chart in any way you would customize the  ``LineChartView`` class.  Take a look at the [*``Charts``*](https://github.com/danielgindi/Charts) docs for more details.
 
@@ -60,7 +60,7 @@ To integrate *MinChartKit* into your Xcode project using CocoaPods, specify it i
 platform :ios, '11.0'
 
 target 'TargetName' do
-  pod 'MinChartKit', :git => 'https://github.com/stevewight/MinChartKit.git'
+  pod 'MinChartKit'
 end
 ```
 
