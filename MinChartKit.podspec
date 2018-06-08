@@ -13,14 +13,14 @@ Pod::Spec.new do |s|
   s.summary      = "Easily Create Hyper-Minimal Charts"
 
   s.homepage     = "http://github.com/stevewight/MinChartKit"
-  s.license      = "MIT"
+  s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "Steve Wight" => "stevendouglaswight@gmail.com" }
   s.platform     = :ios, "11.0"
 
-  s.source       = { :git => "https://github.com/MinChartKit.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/stevewight/MinChartKit.git", :tag => "#{s.version}" }
 
   s.source_files  = "MinChartKit/**/*.{h,m,swift}"
   s.pod_target_xcconfig = { "SWIFT_VERSION" => "4" }
-  s.dependency "Charts"
+  s.dependency "Charts", "~> 3.1.1"
 
 end
